@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@mipmap/actionbar_add_icon"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="ifRoom"
+        android:id="@+id/id_action_add"
+        />
+    <item android:icon="@mipmap/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="ifRoom"
+        android:id="@+id/id_action_delete"
+        />
+    <item
+        android:orderInCategory="100"
+        android:title="GridView"
+        app:showAsAction="never"
+        android:id="@+id/id_action_gridview"
+        />
+    <item
+        android:orderInCategory="100"
+        android:title="ListView"
+        app:showAsAction="never"
+        android:id="@+id/id_action_listview"
+        />
+    <item
+        android:orderInCategory="100"
+        android:title="StaView"
+        app:showAsAction="never"
+        android:id="@+id/id_action_staview"
+        />
+</menu>
